@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        String apiKey = "k_e4434yd3";
+        String apiKey = "suaApiKey";
         URI apiImDb = URI.create("https://imdb-api.com/en/API/Top250Movies/" + apiKey); // cria URI object
 
         HttpClient client = HttpClient.newHttpClient();
